@@ -9,8 +9,10 @@ func main()  {
 	//codewars_probs.Accum("abcde")
 	//fmt.Print(codewars_probs.GetCount("aeiou"))
 	//fmt.Println(codewars_probs.HighAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"))
-	fmt.Println(codewars_probs.DNAStrand("ATTGC"))
-	fmt.Println(codewars_probs.FindShort("bitcoin"))
+	//fmt.Println(codewars_probs.DNAStrand("ATTGC"))
+	//fmt.Println(codewars_probs.FindShort("bitcoin"))
+	//fmt.Println(codewars_probs.NbYear(1500000, 2.5, 10000, 2000000))
+	fmt.Println(codewars_probs.TwoToOne("xyaabbbccccdefww", "xxxxyyyyabklmopq"))
 }
 
 
