@@ -14,7 +14,8 @@ func main()  {
 	//fmt.Println(codewars_probs.NbYear(1500000, 2.5, 10000, 2000000))
 	//fmt.Println(codewars_probs.TwoToOne("xyaabbbccccdefww", "xxxxyyyyabklmopq"))
 	//fmt.Println(codewars_probs.Multiple3And5(10))
-	fmt.Println(codewars_probs.DigitalRoot(167346))
+	//fmt.Println(codewars_probs.DigitalRoot(167346))
+	fmt.Println(codewars_probs.CreatePhoneNumber([10]uint{1,2,3,4,5,6,7,8,9,0}))
 }
 
 
