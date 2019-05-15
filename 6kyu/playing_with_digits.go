@@ -12,9 +12,7 @@ func DigPow(n, p int) int {
     intermediateNum := 0.0
     for idx, val := range strNum {
         digit, _ := strconv.Atoi(string(val))
-        a := float64(digit)
-        b := float64(p + idx)
-        intermediateNum += math.Pow(a, b)
+        intermediateNum += math.Pow(float64(digit), float64(p + idx))
     }
     answer := intermediateNum / float64(n)
     if math.Mod(answer, 1) == 0 {
