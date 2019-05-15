@@ -1,7 +1,7 @@
 package main
 
 import (
-	codewars_probs "codewars_probs/7kyu"
+	"codewars_probs/6kyu"
 	"fmt"
 )
 
@@ -12,8 +12,11 @@ func main()  {
 	//fmt.Println(codewars_probs.DNAStrand("ATTGC"))
 	//fmt.Println(codewars_probs.FindShort("bitcoin"))
 	//fmt.Println(codewars_probs.NbYear(1500000, 2.5, 10000, 2000000))
-	fmt.Println(codewars_probs.TwoToOne("xyaabbbccccdefww", "xxxxyyyyabklmopq"))
+	//fmt.Println(codewars_probs.TwoToOne("xyaabbbccccdefww", "xxxxyyyyabklmopq"))
+	//fmt.Println(codewars_probs.Multiple3And5(10))
+	fmt.Println(codewars_probs.DigitalRoot(167346))
 }
+
 
 
 

@@ -19,7 +19,6 @@ func TwoToOne(s1, s2 string) string {
 	}
 	for key, _ := range stringMap {
 		stringSlice = append(stringSlice, key)
-		//aStr += key
 	}
 	sort.Strings(stringSlice)
 	return strings.Join(stringSlice, "")
